@@ -1,0 +1,12 @@
+PODS:
+  - SplunkMint (5.1.0)
+
+DEPENDENCIES:
+  - SplunkMint
+
+SPEC CHECKSUMS:
+  SplunkMint: 80997bf71d04cccf567de5dd33cbd72f21f39bc4
+
+PODFILE CHECKSUM: 5085e4bf6381b16f476e1f1b6863ff77ed19fcdc
+
+COCOAPODS: 1.1.0.rc.2

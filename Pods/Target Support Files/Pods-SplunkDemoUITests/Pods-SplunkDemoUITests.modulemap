@@ -1,0 +1,6 @@
+framework module Pods_SplunkDemoUITests {
+  umbrella header "Pods-SplunkDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

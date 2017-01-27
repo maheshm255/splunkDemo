@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2933AE85F2D00F9402547296 /* Pods_SplunkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0212D4DB0F45635FD48DDCC /* Pods_SplunkDemo.framework */; };
+		3A22F4701E3B14E700CA542D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A22F46F1E3B14E700CA542D /* AppDelegate.swift */; };
+		3A22F4721E3B14E700CA542D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A22F4711E3B14E700CA542D /* ViewController.swift */; };
+		3A22F4751E3B14E700CA542D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A22F4731E3B14E700CA542D /* Main.storyboard */; };
+		3A22F4781E3B14E700CA542D /* SplunkDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A22F4761E3B14E700CA542D /* SplunkDemo.xcdatamodeld */; };
+		3A22F47A1E3B14E700CA542D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A22F4791E3B14E700CA542D /* Assets.xcassets */; };
+		3A22F47D1E3B14E700CA542D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A22F47B1E3B14E700CA542D /* LaunchScreen.storyboard */; };
+		3A22F4881E3B14E700CA542D /* SplunkDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A22F4871E3B14E700CA542D /* SplunkDemoTests.swift */; };
+		3A22F4931E3B14E700CA542D /* SplunkDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A22F4921E3B14E700CA542D /* SplunkDemoUITests.swift */; };
+		6C67A20E07A070CB25D1CBE7 /* Pods_SplunkDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144757628F603E3C20609926 /* Pods_SplunkDemoTests.framework */; };
+		C6BAA1FA060013AF8E51EF9E /* Pods_SplunkDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3A315198B9F43F563A396B /* Pods_SplunkDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A22F4841E3B14E700CA542D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A22F4641E3B14E700CA542D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A22F46B1E3B14E700CA542D;
+			remoteInfo = SplunkDemo;
+		};
+		3A22F48F1E3B14E700CA542D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A22F4641E3B14E700CA542D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A22F46B1E3B14E700CA542D;
+			remoteInfo = SplunkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		144757628F603E3C20609926 /* Pods_SplunkDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplunkDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE976D6A301CEF722C281BE /* Pods-SplunkDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplunkDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplunkDemoTests/Pods-SplunkDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		345D5DEF5D51F834E140A9D6 /* Pods-SplunkDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplunkDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SplunkDemoUITests/Pods-SplunkDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A22F46C1E3B14E700CA542D /* SplunkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplunkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A22F46F1E3B14E700CA542D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A22F4711E3B14E700CA542D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A22F4741E3B14E700CA542D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A22F4771E3B14E700CA542D /* SplunkDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SplunkDemo.xcdatamodel; sourceTree = "<group>"; };
+		3A22F4791E3B14E700CA542D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A22F47C1E3B14E700CA542D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A22F47E1E3B14E700CA542D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A22F4831E3B14E700CA542D /* SplunkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplunkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A22F4871E3B14E700CA542D /* SplunkDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplunkDemoTests.swift; sourceTree = "<group>"; };
+		3A22F4891E3B14E700CA542D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A22F48E1E3B14E700CA542D /* SplunkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplunkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A22F4921E3B14E700CA542D /* SplunkDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplunkDemoUITests.swift; sourceTree = "<group>"; };
+		3A22F4941E3B14E700CA542D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C39026DC061066BC1BE9E7B /* Pods-SplunkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplunkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SplunkDemo/Pods-SplunkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B75F9D890165CEE00046B513 /* Pods-SplunkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplunkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplunkDemo/Pods-SplunkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D0212D4DB0F45635FD48DDCC /* Pods_SplunkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplunkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13FF5A4FC65EBC1FBBFCAC8 /* Pods-SplunkDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplunkDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplunkDemoUITests/Pods-SplunkDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F335218DD601C1F1BD5720CB /* Pods-SplunkDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplunkDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SplunkDemoTests/Pods-SplunkDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA3A315198B9F43F563A396B /* Pods_SplunkDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplunkDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A22F4691E3B14E700CA542D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2933AE85F2D00F9402547296 /* Pods_SplunkDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A22F4801E3B14E700CA542D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C67A20E07A070CB25D1CBE7 /* Pods_SplunkDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A22F48B1E3B14E700CA542D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BAA1FA060013AF8E51EF9E /* Pods_SplunkDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		379C204D2208219FE49580D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0212D4DB0F45635FD48DDCC /* Pods_SplunkDemo.framework */,
+				144757628F603E3C20609926 /* Pods_SplunkDemoTests.framework */,
+				FA3A315198B9F43F563A396B /* Pods_SplunkDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A22F4631E3B14E700CA542D = {
+			isa = PBXGroup;
+			children = (
+				3A22F46E1E3B14E700CA542D /* SplunkDemo */,
+				3A22F4861E3B14E700CA542D /* SplunkDemoTests */,
+				3A22F4911E3B14E700CA542D /* SplunkDemoUITests */,
+				3A22F46D1E3B14E700CA542D /* Products */,
+				88828B3CB8E3E41F12E614D3 /* Pods */,
+				379C204D2208219FE49580D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A22F46D1E3B14E700CA542D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A22F46C1E3B14E700CA542D /* SplunkDemo.app */,
+				3A22F4831E3B14E700CA542D /* SplunkDemoTests.xctest */,
+				3A22F48E1E3B14E700CA542D /* SplunkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A22F46E1E3B14E700CA542D /* SplunkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3A22F46F1E3B14E700CA542D /* AppDelegate.swift */,
+				3A22F4711E3B14E700CA542D /* ViewController.swift */,
+				3A22F4731E3B14E700CA542D /* Main.storyboard */,
+				3A22F4791E3B14E700CA542D /* Assets.xcassets */,
+				3A22F47B1E3B14E700CA542D /* LaunchScreen.storyboard */,
+				3A22F47E1E3B14E700CA542D /* Info.plist */,
+				3A22F4761E3B14E700CA542D /* SplunkDemo.xcdatamodeld */,
+			);
+			path = SplunkDemo;
+			sourceTree = "<group>";
+		};
+		3A22F4861E3B14E700CA542D /* SplunkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A22F4871E3B14E700CA542D /* SplunkDemoTests.swift */,
+				3A22F4891E3B14E700CA542D /* Info.plist */,
+			);
+			path = SplunkDemoTests;
+			sourceTree = "<group>";
+		};
+		3A22F4911E3B14E700CA542D /* SplunkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A22F4921E3B14E700CA542D /* SplunkDemoUITests.swift */,
+				3A22F4941E3B14E700CA542D /* Info.plist */,
+			);
+			path = SplunkDemoUITests;
+			sourceTree = "<group>";
+		};
+		88828B3CB8E3E41F12E614D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C39026DC061066BC1BE9E7B /* Pods-SplunkDemo.debug.xcconfig */,
+				B75F9D890165CEE00046B513 /* Pods-SplunkDemo.release.xcconfig */,
+				F335218DD601C1F1BD5720CB /* Pods-SplunkDemoTests.debug.xcconfig */,
+				1BE976D6A301CEF722C281BE /* Pods-SplunkDemoTests.release.xcconfig */,
+				345D5DEF5D51F834E140A9D6 /* Pods-SplunkDemoUITests.debug.xcconfig */,
+				F13FF5A4FC65EBC1FBBFCAC8 /* Pods-SplunkDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A22F46B1E3B14E700CA542D /* SplunkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A22F4971E3B14E700CA542D /* Build configuration list for PBXNativeTarget "SplunkDemo" */;
+			buildPhases = (
+				92F44A15756CE80D4C0AAB7F /* [CP] Check Pods Manifest.lock */,
+				3A22F4681E3B14E700CA542D /* Sources */,
+				3A22F4691E3B14E700CA542D /* Frameworks */,
+				3A22F46A1E3B14E700CA542D /* Resources */,
+				43DA9B5CC7328F92FE611332 /* [CP] Embed Pods Frameworks */,
+				C33B50D93A32FBD4BF4E2AE1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplunkDemo;
+			productName = SplunkDemo;
+			productReference = 3A22F46C1E3B14E700CA542D /* SplunkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A22F4821E3B14E700CA542D /* SplunkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A22F49A1E3B14E700CA542D /* Build configuration list for PBXNativeTarget "SplunkDemoTests" */;
+			buildPhases = (
+				29C1C2F259CF584F8D015B0C /* [CP] Check Pods Manifest.lock */,
+				3A22F47F1E3B14E700CA542D /* Sources */,
+				3A22F4801E3B14E700CA542D /* Frameworks */,
+				3A22F4811E3B14E700CA542D /* Resources */,
+				C4DFEDA77EFAE007515891AB /* [CP] Embed Pods Frameworks */,
+				648B1203808C54E92450C43E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A22F4851E3B14E700CA542D /* PBXTargetDependency */,
+			);
+			name = SplunkDemoTests;
+			productName = SplunkDemoTests;
+			productReference = 3A22F4831E3B14E700CA542D /* SplunkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A22F48D1E3B14E700CA542D /* SplunkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A22F49D1E3B14E700CA542D /* Build configuration list for PBXNativeTarget "SplunkDemoUITests" */;
+			buildPhases = (
+				30EA23D61466175942AE311C /* [CP] Check Pods Manifest.lock */,
+				3A22F48A1E3B14E700CA542D /* Sources */,
+				3A22F48B1E3B14E700CA542D /* Frameworks */,
+				3A22F48C1E3B14E700CA542D /* Resources */,
+				590823721BAFCF771F5D2F2E /* [CP] Embed Pods Frameworks */,
+				BE093C8E4282D0D917A345A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A22F4901E3B14E700CA542D /* PBXTargetDependency */,
+			);
+			name = SplunkDemoUITests;
+			productName = SplunkDemoUITests;
+			productReference = 3A22F48E1E3B14E700CA542D /* SplunkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A22F4641E3B14E700CA542D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MAC;
+				TargetAttributes = {
+					3A22F46B1E3B14E700CA542D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3A22F4821E3B14E700CA542D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3A22F46B1E3B14E700CA542D;
+					};
+					3A22F48D1E3B14E700CA542D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3A22F46B1E3B14E700CA542D;
+					};
+				};
+			};
+			buildConfigurationList = 3A22F4671E3B14E700CA542D /* Build configuration list for PBXProject "SplunkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A22F4631E3B14E700CA542D;
+			productRefGroup = 3A22F46D1E3B14E700CA542D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A22F46B1E3B14E700CA542D /* SplunkDemo */,
+				3A22F4821E3B14E700CA542D /* SplunkDemoTests */,
+				3A22F48D1E3B14E700CA542D /* SplunkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A22F46A1E3B14E700CA542D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A22F47D1E3B14E700CA542D /* LaunchScreen.storyboard in Resources */,
+				3A22F47A1E3B14E700CA542D /* Assets.xcassets in Resources */,
+				3A22F4751E3B14E700CA542D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A22F4811E3B14E700CA542D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A22F48C1E3B14E700CA542D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29C1C2F259CF584F8D015B0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30EA23D61466175942AE311C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		43DA9B5CC7328F92FE611332 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplunkDemo/Pods-SplunkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		590823721BAFCF771F5D2F2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplunkDemoUITests/Pods-SplunkDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		648B1203808C54E92450C43E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplunkDemoTests/Pods-SplunkDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92F44A15756CE80D4C0AAB7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE093C8E4282D0D917A345A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplunkDemoUITests/Pods-SplunkDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C33B50D93A32FBD4BF4E2AE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplunkDemo/Pods-SplunkDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4DFEDA77EFAE007515891AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplunkDemoTests/Pods-SplunkDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A22F4681E3B14E700CA542D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A22F4721E3B14E700CA542D /* ViewController.swift in Sources */,
+				3A22F4701E3B14E700CA542D /* AppDelegate.swift in Sources */,
+				3A22F4781E3B14E700CA542D /* SplunkDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A22F47F1E3B14E700CA542D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A22F4881E3B14E700CA542D /* SplunkDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A22F48A1E3B14E700CA542D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A22F4931E3B14E700CA542D /* SplunkDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A22F4851E3B14E700CA542D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A22F46B1E3B14E700CA542D /* SplunkDemo */;
+			targetProxy = 3A22F4841E3B14E700CA542D /* PBXContainerItemProxy */;
+		};
+		3A22F4901E3B14E700CA542D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A22F46B1E3B14E700CA542D /* SplunkDemo */;
+			targetProxy = 3A22F48F1E3B14E700CA542D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A22F4731E3B14E700CA542D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A22F4741E3B14E700CA542D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A22F47B1E3B14E700CA542D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A22F47C1E3B14E700CA542D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A22F4951E3B14E700CA542D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A22F4961E3B14E700CA542D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A22F4981E3B14E700CA542D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C39026DC061066BC1BE9E7B /* Pods-SplunkDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplunkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lee-Balser.SplunkDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A22F4991E3B14E700CA542D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75F9D890165CEE00046B513 /* Pods-SplunkDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplunkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lee-Balser.SplunkDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A22F49B1E3B14E700CA542D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F335218DD601C1F1BD5720CB /* Pods-SplunkDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplunkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lee-Balser.SplunkDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplunkDemo.app/SplunkDemo";
+			};
+			name = Debug;
+		};
+		3A22F49C1E3B14E700CA542D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE976D6A301CEF722C281BE /* Pods-SplunkDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplunkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lee-Balser.SplunkDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplunkDemo.app/SplunkDemo";
+			};
+			name = Release;
+		};
+		3A22F49E1E3B14E700CA542D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345D5DEF5D51F834E140A9D6 /* Pods-SplunkDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SplunkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lee-Balser.SplunkDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SplunkDemo;
+			};
+			name = Debug;
+		};
+		3A22F49F1E3B14E700CA542D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F13FF5A4FC65EBC1FBBFCAC8 /* Pods-SplunkDemoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SplunkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lee-Balser.SplunkDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SplunkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A22F4671E3B14E700CA542D /* Build configuration list for PBXProject "SplunkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A22F4951E3B14E700CA542D /* Debug */,
+				3A22F4961E3B14E700CA542D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A22F4971E3B14E700CA542D /* Build configuration list for PBXNativeTarget "SplunkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A22F4981E3B14E700CA542D /* Debug */,
+				3A22F4991E3B14E700CA542D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A22F49A1E3B14E700CA542D /* Build configuration list for PBXNativeTarget "SplunkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A22F49B1E3B14E700CA542D /* Debug */,
+				3A22F49C1E3B14E700CA542D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A22F49D1E3B14E700CA542D /* Build configuration list for PBXNativeTarget "SplunkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A22F49E1E3B14E700CA542D /* Debug */,
+				3A22F49F1E3B14E700CA542D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A22F4761E3B14E700CA542D /* SplunkDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A22F4771E3B14E700CA542D /* SplunkDemo.xcdatamodel */,
+			);
+			currentVersion = 3A22F4771E3B14E700CA542D /* SplunkDemo.xcdatamodel */;
+			path = SplunkDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A22F4641E3B14E700CA542D /* Project object */;
+}
