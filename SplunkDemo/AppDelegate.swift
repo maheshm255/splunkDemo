@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         Mint.sharedInstance().initAndStartSessionWithAPIKey("5dd570e9")
         
-     print(crash!)
+    // print(crash!)
        return true
     }
 

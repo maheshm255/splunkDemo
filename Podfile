@@ -11,11 +11,13 @@ target 'SplunkDemo' do
   target 'SplunkDemoTests' do
     inherit! :search_paths
     # Pods for testing
+
   end
 
   target 'SplunkDemoUITests' do
     inherit! :search_paths
     # Pods for testing
+
   end
 
 end
